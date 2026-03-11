@@ -17,8 +17,9 @@ interface Photo {
 }
 
 interface PhotoEditorProps {
+  key?: React.Key;
   photo: Photo;
-  onUpdate: () => void;
+  onUpdate: () => void | Promise<void>;
 }
 
 export function PhotoEditor({ photo, onUpdate }: PhotoEditorProps) {

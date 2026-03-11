@@ -10,6 +10,7 @@ interface Photo {
 }
 
 interface PhotoCardProps {
+  key?: React.Key;
   photo: Photo;
   onClick: () => void;
   index?: number;

@@ -84,7 +84,7 @@ export function PhotoUpload({ onUploadComplete }: PhotoUploadProps) {
     onDrop,
     accept: { 'image/*': ['.jpeg', '.jpg', '.png', '.webp'] },
     disabled: uploading,
-  });
+  } as any);
 
   return (
     <div className="bg-zinc-50 dark:bg-zinc-900/50 rounded-3xl p-8 border border-zinc-200 dark:border-zinc-800 mb-8">
