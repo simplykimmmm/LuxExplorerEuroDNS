@@ -9,7 +9,7 @@ export function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 rounded-full bg-white/10 dark:bg-black/10 backdrop-blur-md border border-white/20 dark:border-white/10 shadow-sm hover:bg-white/20 dark:hover:bg-white/5 transition-colors"
+      className="p-2 rounded-full bg-zinc-200/50 dark:bg-black/20 backdrop-blur-md border border-zinc-300/50 dark:border-white/10 shadow-sm hover:bg-zinc-300/50 dark:hover:bg-white/5 transition-colors"
       aria-label="Toggle theme"
     >
       <motion.div
